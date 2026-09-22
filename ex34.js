@@ -1,5 +1,5 @@
 let tab1=[1,2,3];
-let tab2=[3,4,5];
+let tab2=[3,4,5,6];
 let tab=[];
 for (let i=0;i<tab1.length;i++)
       tab.push(tab1[i])
