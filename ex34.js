@@ -5,7 +5,13 @@ for (let i=0;i<tab1.length;i++)
       tab.push(tab1[i])
 
 for (let j=0;j<tab2.length;j++){
-      if (tab2[j]!==3)
-      tab.push(tab2[j])
+      let y=false 
+      for (let x=0;x<tab.length;x++){
+            if (tab[x] ==tab2[j]){
+               y= true
+               break;}
+            }
+      if (y==false)
+      tab.push(tab2[j]) 
 }
 console.log(tab);
